@@ -1,7 +1,7 @@
 name: google_ml_face_detection
 description: A standalone face recognition extracted from google_ml_kit_plugin.
 version: 0.0.1
-repository:
+repository: https://github.com/danjodanjo/google_ml_face_detection
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
