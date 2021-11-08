@@ -58,7 +58,8 @@ extension InputImageRotationMethods on InputImageRotation {
 class Vision {
   Vision._();
 
-  static const MethodChannel channel = MethodChannel('google_ml_face_detector');
+  static const MethodChannel channel =
+      MethodChannel('google_ml_face_detection');
 
   // Creates an instance of [GoogleMlKit] by calling the private constructor
   static final Vision instance = Vision._();
