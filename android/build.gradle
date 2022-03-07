@@ -34,5 +34,5 @@ android {
 }
 
 dependencies {
-    implementation 'com.google.mlkit:face-detection:16.2.0'
+    implementation 'com.google.mlkit:face-detection:16.1.5'
 }
